@@ -1,9 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etusivu</title>
+    <style>
+        img {
+            width: auto;
+            height: 10vw;
+        }
+        button {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .nordea {
+            background-color: #00005e;
+        }
+
+        .nordea:hover {
+            background-color: blue;
+        }
+
+        .pankkari{
+            background-color: wheat;
+        }
+
+        .pankkari:hover {
+            background-color: red;
+        }
+
+        .tulokset {
+            background-color: orange;
+        }
+
+        .tulokset:hover {
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+    <a href="https://solo1.nordea.fi/nsp/login" target="_blank"><button class="nordea"><p>Nordea</p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Nordea_old_logo.svg/220px-Nordea_old_logo.svg.png"></button></a>
+    <br />
+    <a href="https://www.pankkaribowling.fi/urheilulajit/kilpakeilaus/" target="_blank"><button class="pankkari"><p>Pankkari Bowling</p><img src="https://cdn.wisenetwork.fi/assets/pankkaribowling/images/logoleft.png"></button></a>
+    <br />
+    <a href="https://syncscoring.meriq.com/pankkari/" target="_blank"><button class="tulokset"><p>Pankkari Tulokset</p><img src="https://syncscoring.meriq.com/img/Sync_Logo_FNL.png"></button></a>
 </body>
 </html>
